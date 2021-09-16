@@ -8,6 +8,7 @@
     "colors_background_1": "#ffffff",
     "gradient_background_1": "linear-gradient(0deg, rgba(227,198,180,1) 25%, rgba(209,183,254,1) 75%)",
     "colors_background_2": "#F3F3F3",
+    "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "sections": {
