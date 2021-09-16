@@ -305,7 +305,14 @@
         {%- endif -%}
         <div class="footer__copyright caption">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
+          <!-- <small class="copyright__content">{{ powered_by_link }}</small> -->
+         
+          <small>Powered by
+            <a href="https://justcatalyst.com/" target="_blank">
+            <img width="80px" src="{{ 'cat_logo-pink.png' | asset_img_url: '300x' }}" alt="Catalyst Logo" style="margin-left:5px;" />
+            <!-- use as appropriate cat_logo-pink.png -->
+            </a>
+          </small>
         </div>
       </div>
     </div>
