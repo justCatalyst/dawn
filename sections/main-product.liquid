@@ -191,6 +191,23 @@
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
+                    {% if option.name == "Color" %}
+                      <fieldset class="js product-form__input">
+                        <legend class="form__label">{{ option.name }}</legend>
+                        {%- for value in option.values -%}
+                          <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
+                                name="{{ option.name }}"
+                                value="{{ value | escape }}"
+                                form="product-form-{{ section.id }}"
+                                style="background-color:blue;"
+                                {% if option.selected_value == value %}checked{% endif %}
+                          >
+                          <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                            {{ value }}
+                          </label>
+                        {%- endfor -%}
+                      </fieldset>
+                    {% else %}
                       <fieldset class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
                         {%- for value in option.values -%}
@@ -205,6 +222,7 @@
                           </label>
                         {%- endfor -%}
                       </fieldset>
+                    {% endif %}
                   {%- endfor -%}
                   <script type="application/json">
                     {{ product.variants | json }}
@@ -301,6 +319,24 @@
                   </div>
                 {%- endform -%}
               </product-form>
+
+
+
+              <p> <img src="https://img.icons8.com/material-rounded/24/000000/truck--v1.png" style="height:25px;float:left;margin-right:10px;padding-bottom: 4px;">
+                Get it between <strong><span id="fromDate"></span> - <span id="toDate"></span></strong></p>
+                {{ '//cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js' | script_tag }}
+                <script>
+                var fromDate = Date.today().addDays(5);
+                if (fromDate.is().saturday() || fromDate.is().sunday()) {
+                fromDate = fromDate.next().monday();
+                }
+                var toDate = Date.today().addDays(10);
+                if (toDate.is().saturday() || toDate.is().sunday()) {
+                toDate = toDate.next().monday();
+                }
+                document.getElementById('fromDate').innerHTML = fromDate.toString('dddd MMMM dS');
+                document.getElementById('toDate').innerHTML = toDate.toString('dddd MMMM dS');
+                </script>
 
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
