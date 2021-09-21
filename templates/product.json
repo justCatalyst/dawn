@@ -49,6 +49,15 @@
           "settings": {
           }
         },
+        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "content": "<p>{{ product.metafields.my_fields.materials_.value }}<\/p>",
+            "page": "",
+            "icon": "leather"
+          }
+        },
         "0537958e-411c-4f87-ab6e-126233a5587d": {
           "type": "collapsible_tab",
           "settings": {
@@ -67,15 +76,6 @@
             "icon": "iron"
           }
         },
-        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "content": "<p>{{ product.metafields.my_fields.materials_.value }}<\/p>",
-            "page": "",
-            "icon": "leather"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -92,9 +92,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e",
         "0537958e-411c-4f87-ab6e-126233a5587d",
         "176f175d-ed4c-4acc-95da-536582e2a78e",
-        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e",
         "share"
       ],
       "settings": {
