@@ -90,15 +90,6 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/sAsset_3_3x_62125b7b-3eea-4398-a0bb-59b5cbfbd4e6.png",
-            "video_url": "",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
         "product": {
           "type": "product",
           "settings": {
@@ -111,14 +102,13 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "hoodies",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-2"
           }
         }
       },
       "block_order": [
-        "video",
         "product",
         "collection"
       ],
