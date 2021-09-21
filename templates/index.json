@@ -36,41 +36,6 @@
         "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -85,46 +50,6 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": true
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "hoodies",
-            "image_padding": false,
-            "color_scheme": "accent-2"
-          }
-        }
-      },
-      "block_order": [
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
       }
     },
     "multi_column": {
@@ -159,23 +84,52 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": true
+      }
+    },
+    "16322367459a54d26c": {
+      "type": "newsletter",
+      "blocks": {
+        "16322367459a54d26c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16322367459a54d26c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16322367459a54d26c-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16322367459a54d26c-0",
+        "16322367459a54d26c-1",
+        "16322367459a54d26c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
       }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
     "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "multi_column",
+    "16322367459a54d26c"
   ]
 }
