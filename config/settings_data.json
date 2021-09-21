@@ -6,7 +6,7 @@
     "colors_text": "#202020",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#fff",
-    "gradient_background_1": "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,219,219,1) 50%, rgba(255,255,255,1) 100%)",
+    "gradient_background_1": "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,146,233,1) 50%, rgba(255,255,255,1) 100%)",
     "colors_background_2": "#F3F3F3",
     "gradient_background_2": "radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)",
     "type_header_font": "assistant_n4",
