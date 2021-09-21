@@ -63,6 +63,15 @@
             "page": "",
             "icon": "ruler"
           }
+        },
+        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -75,7 +84,8 @@
         "buy_buttons",
         "description",
         "share",
-        "0537958e-411c-4f87-ab6e-126233a5587d"
+        "0537958e-411c-4f87-ab6e-126233a5587d",
+        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e"
       ],
       "settings": {
         "enable_sticky_info": true,
