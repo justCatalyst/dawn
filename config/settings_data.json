@@ -34,7 +34,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 100,
+          "logo": "shopify:\/\/shop_images\/sAsset_3_3x_62125b7b-3eea-4398-a0bb-59b5cbfbd4e6.png",
+          "logo_width": 120,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
