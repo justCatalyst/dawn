@@ -49,12 +49,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "0537958e-411c-4f87-ab6e-126233a5587d": {
           "type": "collapsible_tab",
           "settings": {
@@ -72,6 +66,21 @@
             "page": "",
             "icon": "check_mark"
           }
+        },
+        "176f175d-ed4c-4acc-95da-536582e2a78e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "iron"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -83,9 +92,10 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
         "0537958e-411c-4f87-ab6e-126233a5587d",
-        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e"
+        "5009f2aa-0d38-4bab-b3ab-d7c01250e76e",
+        "176f175d-ed4c-4acc-95da-536582e2a78e",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
