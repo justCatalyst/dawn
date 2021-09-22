@@ -45,6 +45,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "a772b943-aadd-4a03-9d95-95b332c0ca34": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -61,12 +68,13 @@
           }
         },
         "block_order": [
+          "a772b943-aadd-4a03-9d95-95b332c0ca34",
           "footer-0",
           "footer-1"
         ],
         "settings": {
           "color_scheme": "inverse",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
