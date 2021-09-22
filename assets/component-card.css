@@ -307,8 +307,9 @@
   display:inline;
 }
 .dot {
-height: 15px;
-width: 15px;
+height: 14px;
+width: 14px;
+border:1px solid #000;
 /*   background-color: #bbb; */
 border-radius: 50%;
 display: inline-block;

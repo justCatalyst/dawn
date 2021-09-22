@@ -98,7 +98,8 @@
         {%- endif -%}
 
         {% if product_card_product.options_by_name['Color'] %}
-          <label class="variants">
+          <small>
+            <label class="variants">
             Available in
             <ul>
               {% for color_option in product_card_product.options_by_name['Color'].values %}
@@ -106,6 +107,7 @@
               {% endfor %}
             </ul>
           </label>
+        </small>
         {% endif %}
 
         {% comment %} TODO: metafield {% endcomment %}
