@@ -63,18 +63,18 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
+          "dd7be691-93d7-4097-8cbc-ba43734b88a5": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Quick links",
+              "menu": ""
             }
           }
         },
         "block_order": [
           "a772b943-aadd-4a03-9d95-95b332c0ca34",
           "footer-0",
-          "footer-1"
+          "dd7be691-93d7-4097-8cbc-ba43734b88a5"
         ],
         "settings": {
           "color_scheme": "inverse",
