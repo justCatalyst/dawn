@@ -48,8 +48,9 @@
           "a772b943-aadd-4a03-9d95-95b332c0ca34": {
             "type": "image",
             "settings": {
-              "image_width": 100,
-              "alignment": "center"
+              "image": "shopify:\/\/shop_images\/sAsset_3_3x_62125b7b-3eea-4398-a0bb-59b5cbfbd4e6.png",
+              "image_width": 200,
+              "alignment": ""
             }
           },
           "footer-0": {
