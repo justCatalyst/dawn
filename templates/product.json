@@ -81,6 +81,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "8e66e537-0fdc-436b-99cf-592478543c60": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop {{ product.metafields.my_fields.product_type.value }} Sizes",
+            "button_link": "{{ product.metafields.my_fields.collection.value }}"
+          }
         }
       },
       "block_order": [
@@ -95,7 +102,8 @@
         "5009f2aa-0d38-4bab-b3ab-d7c01250e76e",
         "0537958e-411c-4f87-ab6e-126233a5587d",
         "176f175d-ed4c-4acc-95da-536582e2a78e",
-        "share"
+        "share",
+        "8e66e537-0fdc-436b-99cf-592478543c60"
       ],
       "settings": {
         "enable_sticky_info": true,
