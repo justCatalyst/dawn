@@ -85,7 +85,7 @@
         "8e66e537-0fdc-436b-99cf-592478543c60": {
           "type": "button",
           "settings": {
-            "button_label": "Button {{ product.metafields.my_fields.product_type.value }}",
+            "button_label": "Shop {{ product.metafields.my_fields.product_type.value }} Sizes",
             "button_link": "{{ product.metafields.my_fields.collection.value }}"
           }
         }
