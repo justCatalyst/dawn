@@ -296,3 +296,20 @@
     transition: background-color var(--duration-long) ease;
   }
 }
+
+
+/* Product available in */
+.variants {
+  display: inline-flex;
+  cursor: pointer;
+}
+.prod_variant {
+  display:inline;
+}
+.dot {
+height: 15px;
+width: 15px;
+/*   background-color: #bbb; */
+border-radius: 50%;
+display: inline-block;
+}

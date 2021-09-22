@@ -321,9 +321,10 @@
               </product-form>
 
 
-
-              <p> <img src="https://img.icons8.com/material-rounded/24/000000/truck--v1.png" style="height:25px;float:left;margin-right:10px;padding-bottom: 4px;">
-                Get it between <strong><span id="fromDate"></span> - <span id="toDate"></span></strong></p>
+              {% render 'icon-accordion', 'icon: "truck"' %} 
+              <small> 
+                <!-- <img src="https://img.icons8.com/material-rounded/24/000000/truck--v1.png" style="height:25px;float:left;margin-right:10px;padding-bottom: 4px;"> -->
+                Get it between <strong><span id="fromDate"></span> - <span id="toDate"></span></strong></small>
                 {{ '//cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js' | script_tag }}
                 <script>
                 var fromDate = Date.today().addDays(5);
