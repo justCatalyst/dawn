@@ -39,14 +39,14 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Shop Kids Sizes",
-        "collection": "kids",
+        "title": "",
+        "collection": "kil-pirates",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": true,
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": true
