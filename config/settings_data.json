@@ -62,11 +62,19 @@
               "heading": "Heading",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
+          },
+          "0c981a67-dbb1-48af-9680-4ad859310934": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "0c981a67-dbb1-48af-9680-4ad859310934"
         ],
         "settings": {
           "color_scheme": "inverse",
