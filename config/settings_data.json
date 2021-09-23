@@ -82,7 +82,7 @@
         "type": "main-password-header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/image00005_-_Copy.png",
-          "logo_max_width": 100,
+          "logo_max_width": 50,
           "color_scheme": "background-2"
         }
       },
