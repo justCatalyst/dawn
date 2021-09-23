@@ -12,6 +12,9 @@
     "gradient_background_2": "",
     "type_header_font": "armata_n4",
     "type_body_font": "fira_sans_n4",
+    "social_twitter_link": "https:\/\/twitter.com\/lemontwittor",
+    "social_facebook_link": "https:\/\/www.facebook.com\/officialkeithlemon\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/keithlemon\/",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
