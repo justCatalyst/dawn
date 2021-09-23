@@ -58,7 +58,6 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sAsset_3_3x_62125b7b-3eea-4398-a0bb-59b5cbfbd4e6.png",
             "title": "",
             "text": ""
           }
@@ -121,7 +120,7 @@
         "16322367459a54d26c-2"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "full_width": true
       }
     }
