@@ -4,6 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/354D4862-44D4-46EC-9552-B162EC4D8925.png",
+        "image_2": "shopify:\/\/shop_images\/354D4862-44D4-46EC-9552-B162EC4D8925.png",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
