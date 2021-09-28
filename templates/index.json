@@ -8,7 +8,7 @@
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -135,6 +135,12 @@
         "color_scheme": "background-2",
         "full_width": true
       }
+    },
+    "1632840134063acfec": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% assign test = \"test\" %}\n{{test}}"
+      }
     }
   },
   "order": [
@@ -143,6 +149,7 @@
     "featured_products",
     "1632405037ed3101ed",
     "multi_column",
-    "16322367459a54d26c"
+    "16322367459a54d26c",
+    "1632840134063acfec"
   ]
 }
