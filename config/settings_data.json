@@ -34,7 +34,6 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/sAsset_3_3x_62125b7b-3eea-4398-a0bb-59b5cbfbd4e6.png",
           "logo_width": 120,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -72,6 +71,20 @@
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": false
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/BeFunky-sample_24_-_Copy.png",
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
         }
       }
     },
