@@ -9,8 +9,8 @@
     "gradient_background_1": "radial-gradient(circle, rgba(108,174,135,0.2530835576418067) 0%, rgba(185,69,167,0.2726914007790616) 100%)",
     "colors_background_2": "#343447",
     "gradient_background_2": "",
-    "type_header_font": "righteous_n4",
-    "type_body_font": "quicksand_n5",
+    "type_header_font": "quicksand_n4",
+    "type_body_font": "roboto_n4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
