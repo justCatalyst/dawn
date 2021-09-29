@@ -34,7 +34,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 120,
+          "logo": "shopify:\/\/shop_images\/BeFunky-sample_24_-_Copy.png",
+          "logo_width": 50,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
