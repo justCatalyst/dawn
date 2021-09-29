@@ -38,6 +38,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Shop Kids Sizes",
         "collection": "kids",
@@ -54,11 +55,11 @@
     },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sAsset_3_3x_62125b7b-3eea-4398-a0bb-59b5cbfbd4e6.png",
             "title": "",
             "text": ""
           }
@@ -124,12 +125,81 @@
         "color_scheme": "background-2",
         "full_width": true
       }
+    },
+    "163292982198ca9521": {
+      "type": "featured-product",
+      "blocks": {
+        "163292982198ca9521-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "163292982198ca9521-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "163292982198ca9521-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "163292982198ca9521-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "163292982198ca9521-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "163292982198ca9521-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "163292982198ca9521-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "163292982198ca9521-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "163292982198ca9521-0",
+        "163292982198ca9521-1",
+        "163292982198ca9521-2",
+        "163292982198ca9521-3",
+        "163292982198ca9521-4",
+        "163292982198ca9521-5",
+        "163292982198ca9521-6",
+        "163292982198ca9521-7"
+      ],
+      "settings": {
+        "product": "",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "multi_column",
-    "16322367459a54d26c"
+    "16322367459a54d26c",
+    "163292982198ca9521"
   ]
 }
