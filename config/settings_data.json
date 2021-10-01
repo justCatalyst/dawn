@@ -60,14 +60,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "main-menu"
             }
           },
           "dd7be691-93d7-4097-8cbc-ba43734b88a5": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": ""
+              "heading": "Policies",
+              "menu": "footer"
             }
           }
         },
