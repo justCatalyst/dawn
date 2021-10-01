@@ -21,9 +21,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Welcome to MORGZ Merch Store",
               "color_scheme": "background-2",
-              "link": ""
+              "link": "shopify:\/\/collections\/all"
             }
           }
         },
@@ -37,7 +37,6 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/morgz_1_-_logo_120x_7d8ad9be-2ffa-4628-86c9-a176c6216fad.png",
           "logo_width": 120,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -51,7 +50,6 @@
           "a772b943-aadd-4a03-9d95-95b332c0ca34": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slogo-whitee_3x_d981b7ec-86a5-4dc2-838b-8a65d19a4cb3.png",
               "image_width": 200,
               "alignment": ""
             }
