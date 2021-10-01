@@ -68,7 +68,6 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slogo-whitee_3x_5424aec9-ffa2-4e4d-8f6b-2487119be9ce.png",
             "title": "",
             "text": ""
           }
@@ -76,7 +75,6 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slogo-white_3x_fa62f9fa-b3a7-40ce-a0a6-0336021811bc.png",
             "title": "",
             "text": ""
           }
