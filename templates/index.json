@@ -122,13 +122,13 @@
         "column3"
       ],
       "settings": {
-        "title": "",
+        "title": "LOOKBOOK",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "BLACK CANVAS COLLECTION",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/black-canvas",
         "swipe_on_mobile": true
       }
     }
