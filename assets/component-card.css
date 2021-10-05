@@ -236,7 +236,7 @@
 }
 
 .card-wrapper:focus-within .card {
-  box-shadow: none;
+/*   box-shadow: none; */
 }
 
 .card__media-spacer {
