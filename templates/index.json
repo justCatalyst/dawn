@@ -103,14 +103,14 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-627.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "",
+            "text": ""
           }
         },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-544.jpg",
+            "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-602.jpg",
             "title": "",
             "text": ""
           }
@@ -118,8 +118,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-544.jpg",
+            "title": "",
+            "text": ""
           }
         }
       },
@@ -129,14 +130,14 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "BLACK CANVAS COLLECTION",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     }
   },
