@@ -75,7 +75,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "all",
+        "collection": "black-canvas",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
@@ -85,15 +85,6 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
       }
     },
     "multi_column": {
@@ -145,7 +136,6 @@
     "image_banner",
     "rich_text",
     "featured_products",
-    "video",
     "multi_column"
   ]
 }
