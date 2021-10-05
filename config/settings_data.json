@@ -10,6 +10,8 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "cabin_n7",
     "social_instagram_link": "https:\/\/www.instagram.com\/48fortynine",
+    "checkout_logo_image": "shopify:\/\/shop_images\/48FORTYNINE_BOX_LOGO_BLACK.png",
+    "checkout_logo_size": "large",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
