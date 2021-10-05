@@ -14,28 +14,22 @@
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
-        },
-        "1633431585f7ccdd92-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1633431585f7ccdd92-0",
-        "1633431585f7ccdd92-1",
-        "1633431585f7ccdd92-2"
+        "1633431585f7ccdd92-1"
       ],
       "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-257.jpg",
+        "height": "small",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
