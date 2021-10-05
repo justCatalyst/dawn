@@ -54,6 +54,7 @@
 
 .card--product {
   position: relative;
+  box-shadow: 10px 10px 0px 0px #000;
 }
 
 .card--stretch {
@@ -62,7 +63,6 @@
 
 .card--outline:not(.card--soft) {
 /*   border: 0.1rem solid rgba(var(--color-foreground), 0.04); */
-  box-shadow: 10px 10px 0px 0px #000;
 }
 
 .card--light-border {
