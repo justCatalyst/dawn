@@ -52,17 +52,17 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
           "3a58c261-0a87-407a-a0aa-334b61e7e92d": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "_____",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "_____",
               "menu": "footer"
             }
           },
@@ -76,8 +76,8 @@
           }
         },
         "block_order": [
-          "footer-0",
           "3a58c261-0a87-407a-a0aa-334b61e7e92d",
+          "footer-0",
           "223e7b75-0250-4e5f-852e-03aa04fb7698"
         ],
         "settings": {
