@@ -12,6 +12,7 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/48fortynine",
     "checkout_logo_image": "shopify:\/\/shop_images\/48FORTYNINE_BOX_LOGO_BLACK.png",
     "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#000000",
     "checkout_heading_font": "Playfair Display",
     "checkout_body_font": "Raleway",
     "checkout_accent_color": "#000000",
