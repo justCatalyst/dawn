@@ -63,7 +63,7 @@
           "type": "popup",
           "settings": {
             "text": "Size Guide",
-            "page": ""
+            "page": "size-chart"
           }
         },
         "6c255fb1-a126-49d7-9069-6bd30434bd5e": {
