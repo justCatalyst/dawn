@@ -61,6 +61,22 @@
         "show_rating": false
       }
     },
+    "163351083256368a7c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "### Morgz Accessories Collection",
+        "collection": "accessories",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "16322367459a54d26c": {
       "type": "newsletter",
       "blocks": {
@@ -98,6 +114,7 @@
     "1632404776e873dfd4",
     "featured_products",
     "1632405037ed3101ed",
+    "163351083256368a7c",
     "16322367459a54d26c"
   ]
 }
