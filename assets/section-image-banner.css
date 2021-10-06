@@ -276,6 +276,10 @@
     margin-top: 0;
   }
 }
+  
+.banner__text {
+  font-family: var(--font-heading-family);
+    }
 
 .banner__heading > *,
 .banner__text > * {
