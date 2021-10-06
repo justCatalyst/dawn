@@ -59,6 +59,13 @@
           "settings": {
           }
         },
+        "7fbe4825-e4f4-4954-889d-6a91e1a895b5": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
+        },
         "6c255fb1-a126-49d7-9069-6bd30434bd5e": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,18 +89,6 @@
           "settings": {
             "share_label": "Spread the word"
           }
-        },
-        "6aab03ee-5e1f-47f6-87e7-73f50f5c2a1e": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
-        "81a294e2-20a7-4de0-bc4e-7ab2939f185b": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<img src=\"{{ '4849_SIZE_GUIDE.png' | asset_img_url: '300x' }}\""
-          }
         }
       },
       "block_order": [
@@ -106,11 +101,10 @@
         "buy_buttons",
         "cffce2bb-8418-4fa5-883c-78505386fcd6",
         "description",
+        "7fbe4825-e4f4-4954-889d-6a91e1a895b5",
         "6c255fb1-a126-49d7-9069-6bd30434bd5e",
         "0349a711-1e09-48a9-b137-09d857c408b1",
-        "share",
-        "6aab03ee-5e1f-47f6-87e7-73f50f5c2a1e",
-        "81a294e2-20a7-4de0-bc4e-7ab2939f185b"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
