@@ -88,6 +88,12 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "81a294e2-20a7-4de0-bc4e-7ab2939f185b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"{{ '4849_SIZE_GUIDE.png' | asset_img_url: '300x' }}\""
+          }
         }
       },
       "block_order": [
@@ -103,7 +109,8 @@
         "6c255fb1-a126-49d7-9069-6bd30434bd5e",
         "0349a711-1e09-48a9-b137-09d857c408b1",
         "share",
-        "6aab03ee-5e1f-47f6-87e7-73f50f5c2a1e"
+        "6aab03ee-5e1f-47f6-87e7-73f50f5c2a1e",
+        "81a294e2-20a7-4de0-bc4e-7ab2939f185b"
       ],
       "settings": {
         "enable_sticky_info": true,
