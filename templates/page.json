@@ -2,13 +2,32 @@
   "sections": {
     "16335281438c9b8573": {
       "type": "image-banner",
+      "blocks": {
+        "c0d3795e-43f1-494f-9830-3f585bb42f32": {
+          "type": "heading",
+          "settings": {
+            "heading": "~ ABOUT ~",
+            "heading_size": "medium"
+          }
+        },
+        "ca02015b-6868-4897-bca2-793bdb104634": {
+          "type": "text",
+          "settings": {
+            "text": "The name 48fortynine was created from the inspiration of my grandparents, the people who raised me. Both being born in the years 1948 & 1949. They are the people who made me who I am today. Within 49fortnine you will find curated high quality, luxurious garments that are comfortable and inclusive & truly represent my style."
+          }
+        }
+      },
+      "block_order": [
+        "c0d3795e-43f1-494f-9830-3f585bb42f32",
+        "ca02015b-6868-4897-bca2-793bdb104634"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-562.jpg",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "image_overlay_opacity": 40,
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
