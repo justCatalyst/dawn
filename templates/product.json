@@ -44,11 +44,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "cffce2bb-8418-4fa5-883c-78505386fcd6": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -57,6 +52,29 @@
             "text_align": "center",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "6c255fb1-a126-49d7-9069-6bd30434bd5e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "content": "<p>{{ product.metafields.my_fields.materials.value }}<\/p>",
+            "page": "",
+            "icon": "leather"
+          }
+        },
+        "0349a711-1e09-48a9-b137-09d857c408b1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Guide",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "iron"
           }
         },
         "share": {
@@ -70,15 +88,6 @@
           "settings": {
             "custom_liquid": ""
           }
-        },
-        "6c255fb1-a126-49d7-9069-6bd30434bd5e": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "content": "<p>{{ product.metafields.my_fields.materials.value }}<\/p>",
-            "page": "",
-            "icon": "leather"
-          }
         }
       },
       "block_order": [
@@ -89,11 +98,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "cffce2bb-8418-4fa5-883c-78505386fcd6",
+        "description",
+        "6c255fb1-a126-49d7-9069-6bd30434bd5e",
+        "0349a711-1e09-48a9-b137-09d857c408b1",
         "share",
-        "6aab03ee-5e1f-47f6-87e7-73f50f5c2a1e",
-        "6c255fb1-a126-49d7-9069-6bd30434bd5e"
+        "6aab03ee-5e1f-47f6-87e7-73f50f5c2a1e"
       ],
       "settings": {
         "enable_sticky_info": true,
