@@ -15,6 +15,16 @@
             "text_style": "uppercase"
           }
         },
+        "ba930a85-e1fd-47f5-9492-38ad126e7868": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 13,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -59,6 +69,7 @@
       "block_order": [
         "title",
         "vendor",
+        "ba930a85-e1fd-47f5-9492-38ad126e7868",
         "subtitle",
         "price",
         "variant_picker",
