@@ -1,7 +1,18 @@
 {
   "sections": {
+    "16335942331ae1d149": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/MORGZ_WEBSITE_BANNER_V2-02.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MORGZ_WEBSITE_BANNER_V2-02.jpg",
         "adapt_height_first_image": true,
@@ -110,6 +121,7 @@
     }
   },
   "order": [
+    "16335942331ae1d149",
     "image_banner",
     "1632404776e873dfd4",
     "featured_products",
