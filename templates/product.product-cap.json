@@ -75,6 +75,7 @@
         },
         "75da1b4e-7a41-417c-9576-2a1f87691336": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size guide",
             "content": "<p>{{ product.metafields.my_fields.size_guide.value }}<\/p>",
@@ -84,6 +85,7 @@
         },
         "f046fce8-8493-4f0a-a3b1-592053845185": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care guide",
             "content": "<p>{{ product.metafields.my_fields.care_guide.value }}<\/p>",
