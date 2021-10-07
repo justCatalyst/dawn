@@ -58,7 +58,7 @@
         "3641004a-26d2-4ecf-9d65-3e627961c807": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
+            "heading": "Product type",
             "content": "<p>{{ product.metafields.my_fields.product_type.value }}<\/p>",
             "page": "",
             "icon": "check_mark"
