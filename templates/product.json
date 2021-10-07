@@ -55,6 +55,15 @@
             "share_label": "Share"
           }
         },
+        "28cbf843-a1a0-485f-98bb-993b86f367be": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collection",
+            "content": "<p><a href=\"https:\/\/harlow-luna-store.myshopify.com\/collections\/harlow-luna-classic\" target=\"_blank\" title=\"https:\/\/harlow-luna-store.myshopify.com\/collections\/harlow-luna-classic\">Harlow Luna Classic<\/a><\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
         "3641004a-26d2-4ecf-9d65-3e627961c807": {
           "type": "collapsible_tab",
           "settings": {
@@ -81,15 +90,6 @@
             "page": "",
             "icon": "check_mark"
           }
-        },
-        "28cbf843-a1a0-485f-98bb-993b86f367be": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collection",
-            "content": "<p><a href=\"https:\/\/harlow-luna-store.myshopify.com\/collections\/harlow-luna-classic\" target=\"_blank\" title=\"https:\/\/harlow-luna-store.myshopify.com\/collections\/harlow-luna-classic\">Harlow Luna Classic<\/a><\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
         }
       },
       "block_order": [
@@ -102,10 +102,10 @@
         "buy_buttons",
         "description",
         "share",
+        "28cbf843-a1a0-485f-98bb-993b86f367be",
         "3641004a-26d2-4ecf-9d65-3e627961c807",
         "75da1b4e-7a41-417c-9576-2a1f87691336",
-        "f046fce8-8493-4f0a-a3b1-592053845185",
-        "28cbf843-a1a0-485f-98bb-993b86f367be"
+        "f046fce8-8493-4f0a-a3b1-592053845185"
       ],
       "settings": {
         "enable_sticky_info": true,
