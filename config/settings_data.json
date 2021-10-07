@@ -14,6 +14,10 @@
     "social_twitter_link": "https:\/\/twitter.com\/Morgz",
     "social_instagram_link": "https:\/\/www.instagram.com\/morgz",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCBwSufNse8VMBvQM_rCSvgQ",
+    "checkout_logo_image": "shopify:\/\/shop_images\/morgz_1_-_logo.png",
+    "checkout_logo_size": "large",
+    "checkout_heading_font": "Slabo 13px",
+    "checkout_body_font": "Raleway",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
