@@ -57,6 +57,7 @@
         },
         "28cbf843-a1a0-485f-98bb-993b86f367be": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Collection",
             "content": "<p><a href=\"https:\/\/harlow-luna-store.myshopify.com\/collections\/harlow-luna-classic\" target=\"_blank\" title=\"https:\/\/harlow-luna-store.myshopify.com\/collections\/harlow-luna-classic\">Harlow Luna Classic<\/a><\/p>",
@@ -66,6 +67,7 @@
         },
         "3641004a-26d2-4ecf-9d65-3e627961c807": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product type",
             "content": "<p>{{ product.metafields.my_fields.product_type.value }}<\/p>",
