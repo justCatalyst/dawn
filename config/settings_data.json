@@ -6,7 +6,7 @@
     "colors_text": "#a0f4f9",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#527d84",
-    "colors_background_2": "#f39db6",
+    "colors_background_2": "#edb9bd",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "sections": {
@@ -17,7 +17,7 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-2",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
