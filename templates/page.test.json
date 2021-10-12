@@ -8,7 +8,7 @@
     "163403141663e6e71f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ""
+        "custom_liquid": "{% render \"custom-video\" %}"
       }
     }
   },
