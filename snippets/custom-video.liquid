@@ -1,7 +1,7 @@
 <div class="custom-video">
   <div class="video-container">
     <video playsinline autoplay muted loop poster="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/morgz.jpg?v=1633708205">
-      <source src="{{ 'target.webm' | asset_url }}" type="video/webm">
+      <source src="{{ 'output.mp4' | asset_url }}" type="video/mp4">
   </div><!-- end of video-container-->
 
   <div class="image-container"></div>
@@ -27,13 +27,16 @@ video {
   background-size: cover;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   html {
     background: url("https://cdn.shopify.com/s/files/1/0589/4897/6839/files/morgz.jpg?v=1633708205");
     background-size: cover;
   }
-  .video-container {
-    display: none;
+  video {
+    object-fit: contain;
+    height:100%;
+    width:100%;
+    margin-top: 2rem;
   }
 }
 </style>
