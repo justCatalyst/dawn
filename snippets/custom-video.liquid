@@ -1,15 +1,55 @@
 <video poster="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/MORGZ_WEBSITE_BANNER_V2-02.jpg?v=1632826487" autoplay playsinline muted loop>
-  <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4?v=1633706365" type="video/mp4">
+  <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4" type="video/mp4">
 </video>
 
+<div class="custom-video">
+
+
+ <img src="https://raddy.co.uk/wp-content/uploads/2020/05/raddythebrand-svg-red-v3.svg" alt="RaddyTheBrand Logo">
+
+    <div class="bg-overlay"></div>
+    <video class="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
+        <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</div>
+
 <style>
-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.fullscreen-video {
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -10;
+}
+
+.bg-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: -9;
 }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    document.body.addEventListener("touchstart", playVideo);
+    function playVideo() {
+        const video = document.getElementById('myVideo');
+        if(video.playing) {
+        } else {
+            video.play();
+        }
+    }
+});
+</script>
