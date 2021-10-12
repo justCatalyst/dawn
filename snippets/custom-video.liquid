@@ -1,21 +1,26 @@
-<video poster="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/MORGZ_WEBSITE_BANNER_V2-02.jpg?v=1632826487" autoplay playsinline muted loop>
+<!-- <video poster="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/MORGZ_WEBSITE_BANNER_V2-02.jpg?v=1632826487" autoplay playsinline muted loop>
   <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4" type="video/mp4">
-</video>
+</video> -->
 
 <div class="custom-video">
-
-
- <img src="https://raddy.co.uk/wp-content/uploads/2020/05/raddythebrand-svg-red-v3.svg" alt="RaddyTheBrand Logo">
+  <img src="https://raddy.co.uk/wp-content/uploads/2020/05/raddythebrand-svg-red-v3.svg" alt="RaddyTheBrand Logo">
 
     <div class="bg-overlay"></div>
     <video class="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
         <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4">
         Your browser does not support the video tag.
     </video>
-
 </div>
 
 <style>
+.custom-video {
+  display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .fullscreen-video {
     position: fixed;
     overflow: hidden;
