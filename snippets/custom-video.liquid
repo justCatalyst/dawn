@@ -3,58 +3,46 @@
 </video> -->
 
 <div class="custom-video">
-  <img src="https://raddy.co.uk/wp-content/uploads/2020/05/raddythebrand-svg-red-v3.svg" alt="RaddyTheBrand Logo">
+  <div class="video-container">
+    <video playsinline autoplay muted loop poster="cake.jpg">
+      <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4" type="video/webm">
+  </div><!-- end of video-container-->
 
-    <div class="bg-overlay"></div>
-    <video class="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
-        <source src="https://cdn.shopify.com/s/files/1/0589/4897/6839/files/output.mp4">
-        Your browser does not support the video tag.
-    </video>
+  <div class="image-container"></div>
 </div>
 
+
+Resources1× 0.5× 0.25×Rerun
+
 <style>
-.custom-video {
-  display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.fullscreen-video {
-    position: fixed;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -10;
+.header {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  justify-content: center;
+}
+.image-container {
+  background-image: url("https://cdn.shopify.com/s/files/1/0589/4897/6839/files/MORGZ_WEBSITE_BANNER_V2-02.jpg?v=1632826487");
+  background-size: cover;
 }
 
-.bg-overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #000;
-    opacity: 0.6;
-    z-index: -9;
+@media screen and (max-width: 400px) {
+  html {
+    background: url("https://cdn.shopify.com/s/files/1/0589/4897/6839/files/MORGZ_WEBSITE_BANNER_V2-02.jpg?v=1632826487");
+    background-size: cover;
+  }
+  .video-container {
+    display: none;
+  }
 }
 </style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function(){
-    document.body.addEventListener("touchstart", playVideo);
-    function playVideo() {
-        const video = document.getElementById('myVideo');
-        if(video.playing) {
-        } else {
-            video.play();
-        }
-    }
-});
-</script>
