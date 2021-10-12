@@ -71,6 +71,74 @@
         "full_width": true
       }
     },
+    "1634029985e3151aaa": {
+      "type": "featured-product",
+      "blocks": {
+        "1634029985e3151aaa-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1634029985e3151aaa-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1634029985e3151aaa-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1634029985e3151aaa-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1634029985e3151aaa-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1634029985e3151aaa-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1634029985e3151aaa-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1634029985e3151aaa-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1634029985e3151aaa-0",
+        "1634029985e3151aaa-1",
+        "1634029985e3151aaa-2",
+        "1634029985e3151aaa-3",
+        "1634029985e3151aaa-4",
+        "1634029985e3151aaa-5",
+        "1634029985e3151aaa-6",
+        "1634029985e3151aaa-7"
+      ],
+      "settings": {
+        "product": "harlow-luna-classic-logo-hoodie",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -179,83 +247,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1634029985e3151aaa": {
-      "type": "featured-product",
-      "blocks": {
-        "1634029985e3151aaa-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1634029985e3151aaa-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "1634029985e3151aaa-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1634029985e3151aaa-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1634029985e3151aaa-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1634029985e3151aaa-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1634029985e3151aaa-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1634029985e3151aaa-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1634029985e3151aaa-0",
-        "1634029985e3151aaa-1",
-        "1634029985e3151aaa-2",
-        "1634029985e3151aaa-3",
-        "1634029985e3151aaa-4",
-        "1634029985e3151aaa-5",
-        "1634029985e3151aaa-6",
-        "1634029985e3151aaa-7"
-      ],
-      "settings": {
-        "product": "harlow-luna-classic-logo-hoodie",
-        "secondary_background": true,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
+    "1634029985e3151aaa",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "1634029985e3151aaa"
+    "multi_column"
   ]
 }
