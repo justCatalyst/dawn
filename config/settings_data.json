@@ -17,6 +17,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/Harlow-logo_190x_6aa13eec-4d90-41d0-a430-dc6393ac3062.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f6f4ef",
+    "checkout_sidebar_background_color": "#392f2d",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
