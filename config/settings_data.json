@@ -37,12 +37,12 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Harlow-logo.png",
+          "logo": "shopify:\/\/shop_images\/Harlow-logo_190x_6aa13eec-4d90-41d0-a430-dc6393ac3062.png",
           "logo_width": 190,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
-          "enable_sticky_header": false
+          "enable_sticky_header": true
         }
       },
       "footer": {
