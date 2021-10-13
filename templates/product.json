@@ -81,7 +81,7 @@
             "heading": "Size guide",
             "content": "<p>{{ product.metafields.my_fields.size_guide.value }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "ruler"
           }
         },
         "f046fce8-8493-4f0a-a3b1-592053845185": {
@@ -90,7 +90,7 @@
             "heading": "Care guide",
             "content": "<p>{{ product.metafields.my_fields.care_guide.value }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "iron"
           }
         }
       },
