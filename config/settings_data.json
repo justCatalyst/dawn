@@ -21,9 +21,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to Harlow Luna Store",
+              "text": "SHOP OUR CLASSIC COLLECTION",
               "color_scheme": "accent-1",
-              "link": ""
+              "link": "shopify:\/\/collections\/harlow-luna-classic"
             }
           }
         },
