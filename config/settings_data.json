@@ -36,9 +36,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "background-2",
           "logo": "shopify:\/\/shop_images\/Harlow-logo_190x_6aa13eec-4d90-41d0-a430-dc6393ac3062.png",
-          "logo_width": 190,
+          "logo_width": 110,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
