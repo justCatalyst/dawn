@@ -14,6 +14,9 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/harlowlunawhite\/",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@popcornthepony?lang=en",
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/HarlowLunaWhite\/about",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Harlow-logo_190x_6aa13eec-4d90-41d0-a430-dc6393ac3062.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
