@@ -8,7 +8,7 @@
     "colors_background_1": "#ffffff",
     "colors_background_2": "#f6f4ef",
     "type_header_font": "kalam_n4",
-    "type_body_font": "poppins_n4",
+    "type_body_font": "mentor_sans_n4",
     "sale_badge_color_scheme": "background-2",
     "sold_out_badge_color_scheme": "inverse",
     "social_instagram_link": "https:\/\/www.instagram.com\/harlowlunawhite\/",
@@ -73,9 +73,9 @@
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },
