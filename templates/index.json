@@ -2,35 +2,11 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/custom_resized_9b8f83a4-1d39-4fb5-9f1b-c7e9626fa04c.jpg",
         "image_2": "shopify:\/\/shop_images\/Harlow_Luna_2.jpg",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-start",
         "show_text_box": true,
         "image_overlay_opacity": 20,
         "color_scheme": "accent-2",
