@@ -187,8 +187,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Collection",
-        "collection": "kids",
+        "title": "ElonGang Collection",
+        "collection": "featured-collection",
         "products_to_show": 2,
         "show_view_all": true,
         "swipe_on_mobile": false,
