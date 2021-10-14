@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/custom_resized_9b8f83a4-1d39-4fb5-9f1b-c7e9626fa04c.jpg",
-        "image_2": "shopify:\/\/shop_images\/Harlow_Luna_2.jpg",
+        "image": "shopify:\/\/shop_images\/HarlowMerch-098-Edit.jpg",
+        "image_2": "shopify:\/\/shop_images\/HarlowMerch-009-Edit.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "show_text_box": true,
