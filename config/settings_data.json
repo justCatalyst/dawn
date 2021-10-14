@@ -11,6 +11,9 @@
     "gradient_background_2": "radial-gradient(circle, rgba(185,69,167,0.3343160506390056) 0%, rgba(108,174,135,0.29229924391631656) 100%)",
     "type_header_font": "quicksand_n4",
     "type_body_font": "roboto_n4",
+    "social_instagram_link": "@mjcmatthew",
+    "social_tiktok_link": "@officialmjcmatthew",
+    "social_youtube_link": "MjcMatthew",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -59,11 +62,28 @@
               "heading": "Heading",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
+          },
+          "9a8f5037-fda4-47bb-8c7a-3ac6e0ce6147": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "3cd22081-9f6b-4da9-9931-fea1957b3f2b": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "9a8f5037-fda4-47bb-8c7a-3ac6e0ce6147",
+          "3cd22081-9f6b-4da9-9931-fea1957b3f2b"
         ],
         "settings": {
           "color_scheme": "inverse",
