@@ -8,12 +8,6 @@
     "163430285825afcd2d": {
       "type": "image-with-text",
       "blocks": {
-        "163430285825afcd2d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome ^_^"
-          }
-        },
         "163430285825afcd2d-1": {
           "type": "text",
           "settings": {
@@ -29,7 +23,6 @@
         }
       },
       "block_order": [
-        "163430285825afcd2d-0",
         "163430285825afcd2d-1",
         "163430285825afcd2d-2"
       ],
