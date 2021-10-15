@@ -1,10 +1,48 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "163430285825afcd2d": {
+      "type": "image-with-text",
+      "blocks": {
+        "163430285825afcd2d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome ^_^"
+          }
+        },
+        "163430285825afcd2d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/><strong>Hi, my name is Harlow and I have a gorgeous palomino pony called Popcorn!<\/strong><br\/><br\/><strong>My YouTube channel documents mine and Popcorn’s journey through weekly vlogs created by my Mum Chelsea!<\/strong><br\/><br\/><strong>We have so much fun together going to shows, forest rides, seeing friends and lots of grooming! I hope my videos show others how rewarding it is to have a pony.<\/strong><br\/><br\/><strong>Thank you for following and supporting us.<\/strong><br\/><br\/><strong>Lots of Love and Popcorn hugs.<\/strong><br\/><br\/><strong>Harlow x<\/strong><br\/><br\/><\/p>"
+          }
+        },
+        "163430285825afcd2d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "163430285825afcd2d-0",
+        "163430285825afcd2d-1",
+        "163430285825afcd2d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS6_7195-Edit.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163430285825afcd2d"
   ]
 }
