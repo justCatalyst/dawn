@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1637944903c659bd68": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align: center;\">Black Friday: 20% OFF all items (applied at checkout) <\/h1>"
+      }
+    },
     "16340313379758760d": {
       "type": "custom-liquid",
       "settings": {
@@ -128,6 +134,7 @@
     }
   },
   "order": [
+    "1637944903c659bd68",
     "16340313379758760d",
     "16335942331ae1d149",
     "image_banner",
