@@ -26,13 +26,14 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Black Friday Sale - 20% OFF sitewide",
+              "text": "Order before 19th December for guaranteed UK christmas delivery",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections\/black-canvas"
             }
           },
           "1d057165-b95c-4b5b-a6ed-fd44f21c07b0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Free shipping on orders over £50. UK only. Use code: BlackFriday2021",
               "color_scheme": "accent-1",
