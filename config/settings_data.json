@@ -25,7 +25,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Order before 19th December for guaranteed UK christmas delivery",
               "color_scheme": "inverse",
