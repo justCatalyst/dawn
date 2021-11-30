@@ -2,6 +2,7 @@
   "sections": {
     "1637944903c659bd68": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<h1 style=\"text-align: center;\">Black Friday: 20% OFF all items (applied at checkout) <\/h1>"
       }

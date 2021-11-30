@@ -24,6 +24,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "20% off the entire store (applied at checkout)",
               "color_scheme": "background-2",
