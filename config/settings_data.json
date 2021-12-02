@@ -24,9 +24,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "20% off the entire store (applied at checkout)",
+              "text": "Order before 13th December for guaranteed UK christmas delivery",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections\/all"
             }
