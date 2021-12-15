@@ -27,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-351.jpg",
+        "image": "shopify:\/\/shop_images\/DSC_3379.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
@@ -43,7 +43,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "BLANK CANVAS COLLECTION",
+            "heading": "NEW IN - BLANK CANVAS COLLECTION",
             "heading_size": "h1"
           }
         }
