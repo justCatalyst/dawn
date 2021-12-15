@@ -1,11 +1,11 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#000000",
+    "colors_solid_button_labels": "#000000",
+    "colors_accent_1": "#ffffff",
     "colors_accent_2": "#fff",
-    "colors_text": "#000000",
+    "colors_text": "#ffffff",
     "colors_outline_button_labels": "#000000",
-    "colors_background_1": "#FFFFFF",
+    "colors_background_1": "#000000",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "chong_modern_n4",
     "type_body_font": "cabin_n7",
@@ -27,7 +27,7 @@
             "type": "announcement",
             "settings": {
               "text": "Order before 19th December for guaranteed UK christmas delivery",
-              "color_scheme": "inverse",
+              "color_scheme": "background-1",
               "link": "shopify:\/\/collections\/black-canvas"
             }
           },
@@ -51,7 +51,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-2",
           "logo": "shopify:\/\/shop_images\/48FORTYNINE_BOX_LOGO_BLACK.png",
           "logo_width": 210,
           "logo_position": "middle-left",
