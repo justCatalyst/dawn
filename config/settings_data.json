@@ -26,7 +26,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "NEX DAY shipping available. Order before 19th December for guaranteed UK christmas delivery",
+              "text": "Order before 19th December for guaranteed UK christmas delivery - now offering next day delivery",
               "color_scheme": "background-1",
               "link": "shopify:\/\/collections\/black-canvas"
             }
