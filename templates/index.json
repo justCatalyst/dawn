@@ -83,10 +83,10 @@
             "text": ""
           }
         },
-        "column2": {
+        "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-627.jpg",
+            "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-602.jpg",
             "title": "",
             "text": ""
           }
@@ -98,26 +98,17 @@
             "title": "",
             "text": ""
           }
-        },
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/48fortynine-mxh-selects-602.jpg",
-            "title": "",
-            "text": ""
-          }
         }
       },
       "block_order": [
         "56e459fa-b78a-45fa-a59f-6ac1b9e38afd",
-        "column2",
-        "b537b009-5165-4e1b-a6ab-67e4aa0ac0b9",
-        "column1"
+        "column1",
+        "b537b009-5165-4e1b-a6ab-67e4aa0ac0b9"
       ],
       "settings": {
         "title": "BLANK CANVAS LOOKBOOK",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "BLANK CANVAS COLLECTION",
