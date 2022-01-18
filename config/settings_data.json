@@ -24,6 +24,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Order before 13th December for guaranteed UK christmas delivery",
               "color_scheme": "background-2",
