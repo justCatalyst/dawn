@@ -321,7 +321,7 @@
               </product-form>
 
 
-              {% render 'icon-accordion', 'icon: "truck"' %} 
+              {% render 'icon-accordion', icon: "truck" %} 
               <small> 
                 <!-- <img src="https://img.icons8.com/material-rounded/24/000000/truck--v1.png" style="height:25px;float:left;margin-right:10px;padding-bottom: 4px;"> -->
                 Get it between <strong><span id="fromDate"></span> - <span id="toDate"></span></strong></small>
@@ -878,3 +878,13 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% render ''icon-accordion'', ''icon: "truck"'' %}'
+  to: '{% render ''icon-accordion'', icon: "truck" %}'
+  position: 19574..19618
+{% endcomment %}
